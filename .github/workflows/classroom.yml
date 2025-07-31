@@ -18,7 +18,7 @@ jobs:
       uses: classroom-resources/autograding-io-grader@v1
       with:
         test-name: Grading1
-        setup-command: ''
+        setup-command: 'python3 lab1.py'
         command: print
         input: '95'
         expected-output: A
@@ -29,7 +29,7 @@ jobs:
       uses: classroom-resources/autograding-io-grader@v1
       with:
         test-name: Grading2
-        setup-command: ''
+        setup-command: 'python3 lab1.py'
         command: if
         input: '58'
         expected-output: D
@@ -40,7 +40,7 @@ jobs:
       uses: classroom-resources/autograding-io-grader@v1
       with:
         test-name: Grading3
-        setup-command: ''
+        setup-command: 'python3 lab1.py'
         command: while
         input: '39'
         expected-output: F
