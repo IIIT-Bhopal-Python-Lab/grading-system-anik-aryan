@@ -18,8 +18,8 @@ jobs:
       uses: classroom-resources/autograding-io-grader@v1
       with:
         test-name: Grading1
-        setup-command: 'python3 lab1.py'
-        command: print
+        setup-command: ''
+        command: 'python3 lab1.py'
         input: '95'
         expected-output: A
         comparison-method: contains
@@ -29,8 +29,8 @@ jobs:
       uses: classroom-resources/autograding-io-grader@v1
       with:
         test-name: Grading2
-        setup-command: 'python3 lab1.py'
-        command: if
+        setup-command: ''
+        command: 'python3 lab1.py'
         input: '58'
         expected-output: D
         comparison-method: contains
@@ -40,8 +40,8 @@ jobs:
       uses: classroom-resources/autograding-io-grader@v1
       with:
         test-name: Grading3
-        setup-command: 'python3 lab1.py'
-        command: while
+        setup-command: ''
+        command: 'python3 lab1.py'
         input: '39'
         expected-output: F
         comparison-method: contains
