@@ -1,4 +1,3 @@
-
 marks = int(input())
 if(marks>=90 and marks <=100):
     print("A")
@@ -10,7 +9,6 @@ elif(marks>=40 and marks<60):
     print("D")
 elif(marks<40 and marks>=0):
     print("F")
-            
 else:
     print("Enter a valid marks")
             
